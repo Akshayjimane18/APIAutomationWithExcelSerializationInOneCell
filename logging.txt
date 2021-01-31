@@ -1,0 +1,51 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Chetan Mali",
+    "body": "Tester",
+    "userId": 11116
+}
+HTTP/1.1 201 Created
+Date: Sun, 31 Jan 2021 16:17:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+Connection: keep-alive
+Set-Cookie: __cfduid=dbd8241215dcc672e51ae78280f3dd3631612109823; expires=Tue, 02-Mar-21 16:17:03 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1612109877
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"50-bM03wh+pOLJ93dwEVqUui6myeCk"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07fad4d560000096ce9b23d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=QEI6lXstsFsFaBNti7pJRrBmTdXgIH7hrviVbBUoLj1%2Bo6s%2BJCQxUMOQh2c52selCHWj5Z7y1%2B2q1B9sR0homuLr94HxLCRNkkrjZ%2BEX9GKxCA7PR20fOXNbLbTT"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 61a4bd9bcde796ce-FRA
+
+{
+    "title": "Chetan Mali",
+    "body": "Tester",
+    "userId": 11116,
+    "id": 101
+}
